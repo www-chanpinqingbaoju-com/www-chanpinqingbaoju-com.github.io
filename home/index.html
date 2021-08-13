@@ -20,9 +20,9 @@
   </head>
   <body class="bg-gray-100">
     <div class="sizeing">
-      <div class="relative pt-6 px-8">
+      <div class="relative pt-6 md:px-8 px-4">
         <nav class="relative flex items-center justify-between">
-          <div class="flex">
+          <div class="flex w-40 flex-none">
             <a href="/home/" class="flex items-center justify-start">
               <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fill-rule="evenodd">
@@ -36,10 +36,8 @@
               <span class="ml-4 text-lg font-semibold text-gray-800 hover:text-indigo-600">产品情报局</span>
             </a>
           </div>
-          <div class="block ml-16 pr-4 space-x-8">
-            <a href="/posts/" class="font-medium text-gray-800 hover:text-indigo-600">产品列表</a>
-            <a href="/tags/" class="font-medium text-gray-800 hover:text-indigo-600">标签列表</a>
-            <a href="/about/" class="font-medium text-gray-800 hover:text-indigo-600">关于本站</a>
+          <div class="block sm:ml-16 sm:pr-4 sm:space-x-8">
+            <a href="/posts/" class="text-sm sm:text-lg font-medium text-gray-800 hover:text-indigo-600">产品列表</a><span class="sm:hidden">·</span><a href="/tags/" class="text-sm sm:text-lg font-medium text-gray-800 hover:text-indigo-600">标签列表</a><span class="px-0.5 sm:hidden">·</span><a href="/about/" class="text-sm sm:text-lg font-medium text-gray-800 hover:text-indigo-600">关于本站</a>
           </div>
         </nav>
       </div>
@@ -56,287 +54,287 @@
   </div>
 </div>
 
-<div class="main flex sizeing p-6">
+<div class="main flex flex-col md:flex-row sizeing p-6">
   <!-- products -->
   <div class="products flex-auto pr-3">
     <h2 class="text-2xl font-semibold font-display text-gray-800">最新</h2>
     <!-- posts -->
     <div class="mt-6 grid gap-2 grid-cols-1">
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/maxresdefault.webp"
         alt="Tactic"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/tactic/">Tactic</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         Where office and remote work meet
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">知乎产品组</span>
           <span class="font-sans text-xs">2021-08-02</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">34</span> 次浏览 · <span class="text-gray-800">0</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">637</span> 次浏览 · <span class="text-gray-800">6</span> 次点赞
         </div>
       </div>
     </div>
   </div>
 
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/eda53019-b0e8-4731-be13-dd9ec6e348d6.jpeg"
         alt="Wicked Backgrounds"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/wicked_backgrounds/">Wicked Backgrounds</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         Create, copy & export beautiful SVG background waves
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">知乎产品组</span>
           <span class="font-sans text-xs">2021-08-02</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">34</span> 次浏览 · <span class="text-gray-800">0</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">1837</span> 次浏览 · <span class="text-gray-800">18</span> 次点赞
         </div>
       </div>
     </div>
   </div>
 
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/maxresdefault.webp"
         alt="Zen"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/zen/">Zen</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         Posture correction software via webcam
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">dongwenxiao</span>
           <span class="font-sans text-xs">2021-08-02</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">34</span> 次浏览 · <span class="text-gray-800">0</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">337</span> 次浏览 · <span class="text-gray-800">3</span> 次点赞
         </div>
       </div>
     </div>
   </div>
 
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/maxresdefault.webp"
         alt="24HourHomepage"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/24hourhomepage/">24HourHomepage</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         A 24-hour playful experiment in art and time
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">人人都是产品经理</span>
           <span class="font-sans text-xs">2021-08-01</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">1434</span> 次浏览 · <span class="text-gray-800">14</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">2837</span> 次浏览 · <span class="text-gray-800">28</span> 次点赞
         </div>
       </div>
     </div>
   </div>
 
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/maxresdefault.webp"
         alt="Slickr"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/slickr/">Slickr</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         Powerful cover image generator for your Hashnode blog
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">知乎产品组</span>
           <span class="font-sans text-xs">2021-08-01</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">634</span> 次浏览 · <span class="text-gray-800">6</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">1237</span> 次浏览 · <span class="text-gray-800">12</span> 次点赞
         </div>
       </div>
     </div>
   </div>
 
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/e403ce12-90b0-4fcc-a000-6428cb594e28.png"
         alt="Best Digital Ads of 2020"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/best_digital_ads_of_2020/">Best Digital Ads of 2020</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         50+ Digital marketing campaigns that stood out in 2020
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">知乎产品组</span>
           <span class="font-sans text-xs">2021-08-01</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">2434</span> 次浏览 · <span class="text-gray-800">24</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">4837</span> 次浏览 · <span class="text-gray-800">48</span> 次点赞
         </div>
       </div>
     </div>
   </div>
 
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/c76e81fd-4968-4414-8a48-4c6127b4fa1d.png"
         alt="Interial Clarity"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/interial_clarity/">Interial Clarity</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         AI web app to upscale and sharpen your image resolution
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">佳木斯小偷</span>
           <span class="font-sans text-xs">2021-07-31</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">3234</span> 次浏览 · <span class="text-gray-800">32</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">4837</span> 次浏览 · <span class="text-gray-800">48</span> 次点赞
         </div>
       </div>
     </div>
   </div>
 
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/2c66f661-bdf2-4dab-9a77-0d27b9914bbd.png"
         alt="Blobbb Fun"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/blobbb_fun/">Blobbb Fun</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         Create fluffy blobby SVG shapes
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">知乎产品组</span>
           <span class="font-sans text-xs">2021-07-31</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">2034</span> 次浏览 · <span class="text-gray-800">20</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">3037</span> 次浏览 · <span class="text-gray-800">30</span> 次点赞
         </div>
       </div>
     </div>
   </div>
 
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/afc8cba0-9fc7-4e87-9d1e-d48d091bd83c.jpeg"
         alt="Mastodon for iOS"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/mastodon_for_ios/">Mastodon for iOS</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         Official app for the decentralized social network
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">产品情报专员</span>
           <span class="font-sans text-xs">2021-07-31</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">3234</span> 次浏览 · <span class="text-gray-800">32</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">4837</span> 次浏览 · <span class="text-gray-800">48</span> 次点赞
         </div>
       </div>
     </div>
   </div>
 
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/a9bb9b70-b070-489e-9e45-3e61c33de2f0.png"
         alt="Slip"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/slip/">Slip</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         The easiest way to build interactive programming courses
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">Edison</span>
           <span class="font-sans text-xs">2021-07-29</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">1634</span> 次浏览 · <span class="text-gray-800">16</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">2037</span> 次浏览 · <span class="text-gray-800">20</span> 次点赞
         </div>
       </div>
     </div>
@@ -425,7 +423,7 @@
     >
   </div>
   <!-- sidebar -->
-  <div class="flex-none w-60">
+  <div class="flex-none w-full md:w-60 mt-5 md:mt-0">
   <div>
     <h1 class="text-2xl font-semibold font-display text-gray-800">热门产品</h1>
     <div class="mt-6 grid gap-2 grid-cols-1">
@@ -520,13 +518,13 @@
     <div class="mt-6 grid gap-1 grid-cols-2">
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/模板/1">
+        <a class="block" href="/posts/moban/1">
           <div>模板<span class="pl-2 text-sm text-green-400">9</span></div>
         </a>
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/应用程序/1">
+        <a class="block" href="/posts/yingyongchengxu/1">
           <div>应用程序<span class="pl-2 text-sm text-green-400">9</span></div>
         </a>
       </div>
@@ -550,25 +548,25 @@
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/网站/1">
+        <a class="block" href="/posts/wangzhan/1">
           <div>网站<span class="pl-2 text-sm text-green-400">7</span></div>
         </a>
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/生成器/1">
+        <a class="block" href="/posts/shengchengqi/1">
           <div>生成器<span class="pl-2 text-sm text-green-400">7</span></div>
         </a>
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/收件箱/1">
+        <a class="block" href="/posts/shoujianxiang/1">
           <div>收件箱<span class="pl-2 text-sm text-green-400">7</span></div>
         </a>
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/自定义/1">
+        <a class="block" href="/posts/zidingyi/1">
           <div>自定义<span class="pl-2 text-sm text-green-400">7</span></div>
         </a>
       </div>
@@ -587,21 +585,21 @@
 
     <div class="bg-gray-700">
       <div class="sizeing p-6 text-gray-100">
-        <div class="flex">
+        <div class="flex flex-col lg:flex-row">
           <div class="flex-1 text-xs">
             <h2 class="text-1xl font-semibold text-base mb-2">欢迎</h2>
             欢迎来到产品情报局，这里有很多好玩的产品信息：产品、开发、游戏<br />
             联系站长 Email cs_victor@126.com
           </div>
-          <div class="flex-1">
-            <h2 class="text-1xl font-semibold text-base mb-2">相关站点</h2>
+          <div class="flex-1 mt-5 lg:mt-0">
+            <h2 class="text-1xl font-semibold text-base mb-2">友情站点</h2>
             <div class="grid grid-cols-4 gap-1 text-xs">
               <a href="https://giters.com/">Giters</a>
+              <!-- <a href="">友情链接</a>
               <a href="">友情链接</a>
               <a href="">友情链接</a>
               <a href="">友情链接</a>
-              <a href="">友情链接</a>
-              <a href="">友情链接</a>
+              <a href="">友情链接</a> -->
             </div>
           </div>
         </div>

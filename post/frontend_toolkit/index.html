@@ -20,9 +20,9 @@
   </head>
   <body class="bg-gray-100">
     <div class="sizeing">
-      <div class="relative pt-6 px-8">
+      <div class="relative pt-6 md:px-8 px-4">
         <nav class="relative flex items-center justify-between">
-          <div class="flex">
+          <div class="flex w-40 flex-none">
             <a href="/home/" class="flex items-center justify-start">
               <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fill-rule="evenodd">
@@ -36,17 +36,15 @@
               <span class="ml-4 text-lg font-semibold text-gray-800 hover:text-indigo-600">产品情报局</span>
             </a>
           </div>
-          <div class="block ml-16 pr-4 space-x-8">
-            <a href="/posts/" class="font-medium text-gray-800 hover:text-indigo-600">产品列表</a>
-            <a href="/tags/" class="font-medium text-gray-800 hover:text-indigo-600">标签列表</a>
-            <a href="/about/" class="font-medium text-gray-800 hover:text-indigo-600">关于本站</a>
+          <div class="block sm:ml-16 sm:pr-4 sm:space-x-8">
+            <a href="/posts/" class="text-sm sm:text-lg font-medium text-gray-800 hover:text-indigo-600">产品列表</a><span class="sm:hidden">·</span><a href="/tags/" class="text-sm sm:text-lg font-medium text-gray-800 hover:text-indigo-600">标签列表</a><span class="px-0.5 sm:hidden">·</span><a href="/about/" class="text-sm sm:text-lg font-medium text-gray-800 hover:text-indigo-600">关于本站</a>
           </div>
         </nav>
       </div>
     </div>
     
 
-<div class="main flex sizeing p-6">
+<div class="main flex flex-col md:flex-row sizeing p-6">
   <!-- product -->
   <div class="product flex-auto pr-3">
     <div class="flex flex-col flex-auto p-6 bg-white rounded-md">
@@ -57,13 +55,13 @@
           <span class="font-sans text-xs">2021-01-30</span>
         </div>
         <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">-12745</span> 次浏览 · <span class="text-gray-800">-127</span> 次点赞
+          <span class="text-gray-800">11153</span> 次浏览 · <span class="text-gray-800">111</span> 次点赞
         </div>
       </div>
-      <div class="mt-3 text-sm text-gray-600 h-20">
+      <div class="py-3 text-sm text-gray-600">
         前端工具箱是一个实用程序的集合，用于重复的前端相关任务。它是可定制的，让您设置一切根据您的需要。
       </div>
-      <div class="grid grid-cols-2 gap-4">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
         
           <img class="rounded-md border" src="/assets/images/17352713-18ac-478b-906f-d3f535230933.png" alt="Frontend Toolkit">
         
@@ -94,9 +92,9 @@
     </div>
   </div>
   <!-- sidebar -->
-  <div class="flex-none w-60">
+  <div class="flex-none w-full md:w-60 mt-5 md:mt-0">
   <div>
-    <h1 class="text-2xl font-semibold font-display text-gray-800">热门产品</h1>
+    <h1 class="text-2xl font-semibold font-display text-gray-800">🔥 热门产品</h1>
     <div class="mt-6 grid gap-2 grid-cols-1">
       
       <a href="/post/readstack/" class="flex p-2 rounded text-center text-xs bg-white hover:text-indigo-600">
@@ -185,17 +183,17 @@
     </div>
   </div>
   <div class="mt-5">
-    <h1 class="text-2xl font-semibold font-display text-gray-800">热门标签</h1>
+    <h1 class="text-2xl font-semibold font-display text-gray-800">🔥 热门标签</h1>
     <div class="mt-6 grid gap-1 grid-cols-2">
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/模板/1">
+        <a class="block" href="/posts/moban/1">
           <div>模板<span class="pl-2 text-sm text-green-400">9</span></div>
         </a>
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/应用程序/1">
+        <a class="block" href="/posts/yingyongchengxu/1">
           <div>应用程序<span class="pl-2 text-sm text-green-400">9</span></div>
         </a>
       </div>
@@ -219,25 +217,25 @@
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/网站/1">
+        <a class="block" href="/posts/wangzhan/1">
           <div>网站<span class="pl-2 text-sm text-green-400">7</span></div>
         </a>
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/生成器/1">
+        <a class="block" href="/posts/shengchengqi/1">
           <div>生成器<span class="pl-2 text-sm text-green-400">7</span></div>
         </a>
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/收件箱/1">
+        <a class="block" href="/posts/shoujianxiang/1">
           <div>收件箱<span class="pl-2 text-sm text-green-400">7</span></div>
         </a>
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/自定义/1">
+        <a class="block" href="/posts/zidingyi/1">
           <div>自定义<span class="pl-2 text-sm text-green-400">7</span></div>
         </a>
       </div>
@@ -256,21 +254,21 @@
 
     <div class="bg-gray-700">
       <div class="sizeing p-6 text-gray-100">
-        <div class="flex">
+        <div class="flex flex-col lg:flex-row">
           <div class="flex-1 text-xs">
             <h2 class="text-1xl font-semibold text-base mb-2">欢迎</h2>
             欢迎来到产品情报局，这里有很多好玩的产品信息：产品、开发、游戏<br />
             联系站长 Email cs_victor@126.com
           </div>
-          <div class="flex-1">
-            <h2 class="text-1xl font-semibold text-base mb-2">相关站点</h2>
+          <div class="flex-1 mt-5 lg:mt-0">
+            <h2 class="text-1xl font-semibold text-base mb-2">友情站点</h2>
             <div class="grid grid-cols-4 gap-1 text-xs">
               <a href="https://giters.com/">Giters</a>
+              <!-- <a href="">友情链接</a>
               <a href="">友情链接</a>
               <a href="">友情链接</a>
               <a href="">友情链接</a>
-              <a href="">友情链接</a>
-              <a href="">友情链接</a>
+              <a href="">友情链接</a> -->
             </div>
           </div>
         </div>
@@ -300,4 +298,4 @@
     })();
   </script>
 
-</html>
+<

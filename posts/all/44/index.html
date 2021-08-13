@@ -20,9 +20,9 @@
   </head>
   <body class="bg-gray-100">
     <div class="sizeing">
-      <div class="relative pt-6 px-8">
+      <div class="relative pt-6 md:px-8 px-4">
         <nav class="relative flex items-center justify-between">
-          <div class="flex">
+          <div class="flex w-40 flex-none">
             <a href="/home/" class="flex items-center justify-start">
               <svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
                 <g fill="none" fill-rule="evenodd">
@@ -36,157 +36,155 @@
               <span class="ml-4 text-lg font-semibold text-gray-800 hover:text-indigo-600">产品情报局</span>
             </a>
           </div>
-          <div class="block ml-16 pr-4 space-x-8">
-            <a href="/posts/" class="font-medium text-gray-800 hover:text-indigo-600">产品列表</a>
-            <a href="/tags/" class="font-medium text-gray-800 hover:text-indigo-600">标签列表</a>
-            <a href="/about/" class="font-medium text-gray-800 hover:text-indigo-600">关于本站</a>
+          <div class="block sm:ml-16 sm:pr-4 sm:space-x-8">
+            <a href="/posts/" class="text-sm sm:text-lg font-medium text-gray-800 hover:text-indigo-600">产品列表</a><span class="sm:hidden">·</span><a href="/tags/" class="text-sm sm:text-lg font-medium text-gray-800 hover:text-indigo-600">标签列表</a><span class="px-0.5 sm:hidden">·</span><a href="/about/" class="text-sm sm:text-lg font-medium text-gray-800 hover:text-indigo-600">关于本站</a>
           </div>
         </nav>
       </div>
     </div>
     
 
-<div class="main flex sizeing p-6">
+<div class="main flex flex-col md:flex-row sizeing p-6">
   <!-- products -->
   <div class="products flex-auto pr-3">
     <div class="p-5 text-2xl font-semibold font-display bg-gray-700 text-gray-100 rounded-md">产品列表</div>
     <!-- posts -->
     <div class="mt-6 grid gap-2 grid-cols-1">
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/maxresdefault.webp"
         alt="Marco Experiences"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/marco_experiences/">Marco Experiences</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         Meet Marco, the better way to bring your people together.
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">产品情报专员</span>
           <span class="font-sans text-xs">2021-05-03</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">-1647</span> 次浏览 · <span class="text-gray-800">-16</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">47</span> 次浏览 · <span class="text-gray-800">0</span> 次点赞
         </div>
       </div>
     </div>
   </div>
 
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/maxresdefault.webp"
         alt="Joey"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/joey/">Joey</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         7 interactive blocks to boost engagement for Notion pages
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">人人都是产品经理</span>
           <span class="font-sans text-xs">2021-05-03</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">-347</span> 次浏览 · <span class="text-gray-800">-3</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">47</span> 次浏览 · <span class="text-gray-800">0</span> 次点赞
         </div>
       </div>
     </div>
   </div>
 
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/maxresdefault.webp"
         alt="Typewise 3.0"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/typewise_3.0/">Typewise 3.0</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         The privacy-friendly, free Gboard alternative
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">dongwenxiao</span>
           <span class="font-sans text-xs">2021-05-03</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">-1147</span> 次浏览 · <span class="text-gray-800">-11</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">47</span> 次浏览 · <span class="text-gray-800">0</span> 次点赞
         </div>
       </div>
     </div>
   </div>
 
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/45129fe0-2b02-40e0-9e57-a8a277ef6371.png"
         alt="Stoic.today"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/stoic.today/">Stoic.today</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         A game to guess if Stoic quotes are real or GPT3 generated
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">dongwenxiao</span>
           <span class="font-sans text-xs">2021-05-02</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">53</span> 次浏览 · <span class="text-gray-800">0</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">1147</span> 次浏览 · <span class="text-gray-800">11</span> 次点赞
         </div>
       </div>
     </div>
   </div>
 
   
-  <div class="news flex p-3 bg-white rounded-md hover:shadow-md">
-    <div class="flex-none">
+  <div class="news flex flex-col lg:flex-row p-3 bg-white rounded-md hover:shadow-md">
+    <div class="w-full lg:w-auto lg:flex-none">
       <img
-        class="w-60 h-40 object-cover object-center rounded-md"
+        class="w-full lg:w-60 lg:h-40 object-cover object-center rounded-md"
         src="/assets/images/c963b040-a34b-47ef-a724-341b1b937902.png"
         alt="Refined Zapier"
       />
     </div>
-    <div class="flex flex-col flex-auto pl-5 pr-3">
-      <h1 class="text-2xl font-bold leading-6 h-14 text-gray-800 break-words">
+    <div class="w-full flex flex-col flex-auto p-3 pb-5 lg:py-0">
+      <h1 class="text-lg lg:text-2xl font-bold leading-5 lg:leading-6 lg:h-14 text-gray-800 break-words">
         <a class="hover:text-indigo-600" href="/post/refined_zapier/">Refined Zapier</a>
       </h1>
-      <div class="text-sm text-gray-600 h-20">
+      <div class="text-sm text-gray-600 lg:h-20">
         Open-source browser extension to improve Zapier's UX
       </div>
-      <div class="flex h-6 text-gray-500">
+      <div class="flex flex-col lg:flex-row h-6 text-gray-500">
         <div class="flex-none">
           <span class="font-sans text-sm text-indigo-600">佳木斯小偷</span>
           <span class="font-sans text-xs">2021-05-02</span>
         </div>
-        <div class="flex-auto text-right leading-6 font-sans text-xs">
-          <span class="text-gray-800">53</span> 次浏览 · <span class="text-gray-800">0</span> 次点赞
+        <div class="flex-auto text-left lg:text-right leading-6 font-sans text-xs">
+          <span class="text-gray-800">1447</span> 次浏览 · <span class="text-gray-800">14</span> 次点赞
         </div>
       </div>
     </div>
@@ -280,168 +278,168 @@
 
     <div class="mt-4 block leading-10 w-full text-center">
       
-      <a class="page-num box-border " href="/posts/all/1">1</a>
+      <a class="page-num m-1 box-border " href="/posts/all/1">1</a>
       
-      <a class="page-num box-border " href="/posts/all/2">2</a>
+      <a class="page-num m-1 box-border " href="/posts/all/2">2</a>
       
-      <a class="page-num box-border " href="/posts/all/3">3</a>
+      <a class="page-num m-1 box-border " href="/posts/all/3">3</a>
       
-      <a class="page-num box-border " href="/posts/all/4">4</a>
+      <a class="page-num m-1 box-border " href="/posts/all/4">4</a>
       
-      <a class="page-num box-border " href="/posts/all/5">5</a>
+      <a class="page-num m-1 box-border " href="/posts/all/5">5</a>
       
-      <a class="page-num box-border " href="/posts/all/6">6</a>
+      <a class="page-num m-1 box-border " href="/posts/all/6">6</a>
       
-      <a class="page-num box-border " href="/posts/all/7">7</a>
+      <a class="page-num m-1 box-border " href="/posts/all/7">7</a>
       
-      <a class="page-num box-border " href="/posts/all/8">8</a>
+      <a class="page-num m-1 box-border " href="/posts/all/8">8</a>
       
-      <a class="page-num box-border " href="/posts/all/9">9</a>
+      <a class="page-num m-1 box-border " href="/posts/all/9">9</a>
       
-      <a class="page-num box-border " href="/posts/all/10">10</a>
+      <a class="page-num m-1 box-border " href="/posts/all/10">10</a>
       
-      <a class="page-num box-border " href="/posts/all/11">11</a>
+      <a class="page-num m-1 box-border " href="/posts/all/11">11</a>
       
-      <a class="page-num box-border " href="/posts/all/12">12</a>
+      <a class="page-num m-1 box-border " href="/posts/all/12">12</a>
       
-      <a class="page-num box-border " href="/posts/all/13">13</a>
+      <a class="page-num m-1 box-border " href="/posts/all/13">13</a>
       
-      <a class="page-num box-border " href="/posts/all/14">14</a>
+      <a class="page-num m-1 box-border " href="/posts/all/14">14</a>
       
-      <a class="page-num box-border " href="/posts/all/15">15</a>
+      <a class="page-num m-1 box-border " href="/posts/all/15">15</a>
       
-      <a class="page-num box-border " href="/posts/all/16">16</a>
+      <a class="page-num m-1 box-border " href="/posts/all/16">16</a>
       
-      <a class="page-num box-border " href="/posts/all/17">17</a>
+      <a class="page-num m-1 box-border " href="/posts/all/17">17</a>
       
-      <a class="page-num box-border " href="/posts/all/18">18</a>
+      <a class="page-num m-1 box-border " href="/posts/all/18">18</a>
       
-      <a class="page-num box-border " href="/posts/all/19">19</a>
+      <a class="page-num m-1 box-border " href="/posts/all/19">19</a>
       
-      <a class="page-num box-border " href="/posts/all/20">20</a>
+      <a class="page-num m-1 box-border " href="/posts/all/20">20</a>
       
-      <a class="page-num box-border " href="/posts/all/21">21</a>
+      <a class="page-num m-1 box-border " href="/posts/all/21">21</a>
       
-      <a class="page-num box-border " href="/posts/all/22">22</a>
+      <a class="page-num m-1 box-border " href="/posts/all/22">22</a>
       
-      <a class="page-num box-border " href="/posts/all/23">23</a>
+      <a class="page-num m-1 box-border " href="/posts/all/23">23</a>
       
-      <a class="page-num box-border " href="/posts/all/24">24</a>
+      <a class="page-num m-1 box-border " href="/posts/all/24">24</a>
       
-      <a class="page-num box-border " href="/posts/all/25">25</a>
+      <a class="page-num m-1 box-border " href="/posts/all/25">25</a>
       
-      <a class="page-num box-border " href="/posts/all/26">26</a>
+      <a class="page-num m-1 box-border " href="/posts/all/26">26</a>
       
-      <a class="page-num box-border " href="/posts/all/27">27</a>
+      <a class="page-num m-1 box-border " href="/posts/all/27">27</a>
       
-      <a class="page-num box-border " href="/posts/all/28">28</a>
+      <a class="page-num m-1 box-border " href="/posts/all/28">28</a>
       
-      <a class="page-num box-border " href="/posts/all/29">29</a>
+      <a class="page-num m-1 box-border " href="/posts/all/29">29</a>
       
-      <a class="page-num box-border " href="/posts/all/30">30</a>
+      <a class="page-num m-1 box-border " href="/posts/all/30">30</a>
       
-      <a class="page-num box-border " href="/posts/all/31">31</a>
+      <a class="page-num m-1 box-border " href="/posts/all/31">31</a>
       
-      <a class="page-num box-border " href="/posts/all/32">32</a>
+      <a class="page-num m-1 box-border " href="/posts/all/32">32</a>
       
-      <a class="page-num box-border " href="/posts/all/33">33</a>
+      <a class="page-num m-1 box-border " href="/posts/all/33">33</a>
       
-      <a class="page-num box-border " href="/posts/all/34">34</a>
+      <a class="page-num m-1 box-border " href="/posts/all/34">34</a>
       
-      <a class="page-num box-border " href="/posts/all/35">35</a>
+      <a class="page-num m-1 box-border " href="/posts/all/35">35</a>
       
-      <a class="page-num box-border " href="/posts/all/36">36</a>
+      <a class="page-num m-1 box-border " href="/posts/all/36">36</a>
       
-      <a class="page-num box-border " href="/posts/all/37">37</a>
+      <a class="page-num m-1 box-border " href="/posts/all/37">37</a>
       
-      <a class="page-num box-border " href="/posts/all/38">38</a>
+      <a class="page-num m-1 box-border " href="/posts/all/38">38</a>
       
-      <a class="page-num box-border " href="/posts/all/39">39</a>
+      <a class="page-num m-1 box-border " href="/posts/all/39">39</a>
       
-      <a class="page-num box-border " href="/posts/all/40">40</a>
+      <a class="page-num m-1 box-border " href="/posts/all/40">40</a>
       
-      <a class="page-num box-border " href="/posts/all/41">41</a>
+      <a class="page-num m-1 box-border " href="/posts/all/41">41</a>
       
-      <a class="page-num box-border " href="/posts/all/42">42</a>
+      <a class="page-num m-1 box-border " href="/posts/all/42">42</a>
       
-      <a class="page-num box-border " href="/posts/all/43">43</a>
+      <a class="page-num m-1 box-border " href="/posts/all/43">43</a>
       
-      <a class="page-num box-border text-indigo-600 border border-indigo-400" href="/posts/all/44">44</a>
+      <a class="page-num m-1 box-border text-indigo-600 border border-indigo-400" href="/posts/all/44">44</a>
       
-      <a class="page-num box-border " href="/posts/all/45">45</a>
+      <a class="page-num m-1 box-border " href="/posts/all/45">45</a>
       
-      <a class="page-num box-border " href="/posts/all/46">46</a>
+      <a class="page-num m-1 box-border " href="/posts/all/46">46</a>
       
-      <a class="page-num box-border " href="/posts/all/47">47</a>
+      <a class="page-num m-1 box-border " href="/posts/all/47">47</a>
       
-      <a class="page-num box-border " href="/posts/all/48">48</a>
+      <a class="page-num m-1 box-border " href="/posts/all/48">48</a>
       
-      <a class="page-num box-border " href="/posts/all/49">49</a>
+      <a class="page-num m-1 box-border " href="/posts/all/49">49</a>
       
-      <a class="page-num box-border " href="/posts/all/50">50</a>
+      <a class="page-num m-1 box-border " href="/posts/all/50">50</a>
       
-      <a class="page-num box-border " href="/posts/all/51">51</a>
+      <a class="page-num m-1 box-border " href="/posts/all/51">51</a>
       
-      <a class="page-num box-border " href="/posts/all/52">52</a>
+      <a class="page-num m-1 box-border " href="/posts/all/52">52</a>
       
-      <a class="page-num box-border " href="/posts/all/53">53</a>
+      <a class="page-num m-1 box-border " href="/posts/all/53">53</a>
       
-      <a class="page-num box-border " href="/posts/all/54">54</a>
+      <a class="page-num m-1 box-border " href="/posts/all/54">54</a>
       
-      <a class="page-num box-border " href="/posts/all/55">55</a>
+      <a class="page-num m-1 box-border " href="/posts/all/55">55</a>
       
-      <a class="page-num box-border " href="/posts/all/56">56</a>
+      <a class="page-num m-1 box-border " href="/posts/all/56">56</a>
       
-      <a class="page-num box-border " href="/posts/all/57">57</a>
+      <a class="page-num m-1 box-border " href="/posts/all/57">57</a>
       
-      <a class="page-num box-border " href="/posts/all/58">58</a>
+      <a class="page-num m-1 box-border " href="/posts/all/58">58</a>
       
-      <a class="page-num box-border " href="/posts/all/59">59</a>
+      <a class="page-num m-1 box-border " href="/posts/all/59">59</a>
       
-      <a class="page-num box-border " href="/posts/all/60">60</a>
+      <a class="page-num m-1 box-border " href="/posts/all/60">60</a>
       
-      <a class="page-num box-border " href="/posts/all/61">61</a>
+      <a class="page-num m-1 box-border " href="/posts/all/61">61</a>
       
-      <a class="page-num box-border " href="/posts/all/62">62</a>
+      <a class="page-num m-1 box-border " href="/posts/all/62">62</a>
       
-      <a class="page-num box-border " href="/posts/all/63">63</a>
+      <a class="page-num m-1 box-border " href="/posts/all/63">63</a>
       
-      <a class="page-num box-border " href="/posts/all/64">64</a>
+      <a class="page-num m-1 box-border " href="/posts/all/64">64</a>
       
-      <a class="page-num box-border " href="/posts/all/65">65</a>
+      <a class="page-num m-1 box-border " href="/posts/all/65">65</a>
       
-      <a class="page-num box-border " href="/posts/all/66">66</a>
+      <a class="page-num m-1 box-border " href="/posts/all/66">66</a>
       
-      <a class="page-num box-border " href="/posts/all/67">67</a>
+      <a class="page-num m-1 box-border " href="/posts/all/67">67</a>
       
-      <a class="page-num box-border " href="/posts/all/68">68</a>
+      <a class="page-num m-1 box-border " href="/posts/all/68">68</a>
       
-      <a class="page-num box-border " href="/posts/all/69">69</a>
+      <a class="page-num m-1 box-border " href="/posts/all/69">69</a>
       
-      <a class="page-num box-border " href="/posts/all/70">70</a>
+      <a class="page-num m-1 box-border " href="/posts/all/70">70</a>
       
-      <a class="page-num box-border " href="/posts/all/71">71</a>
+      <a class="page-num m-1 box-border " href="/posts/all/71">71</a>
       
-      <a class="page-num box-border " href="/posts/all/72">72</a>
+      <a class="page-num m-1 box-border " href="/posts/all/72">72</a>
       
-      <a class="page-num box-border " href="/posts/all/73">73</a>
+      <a class="page-num m-1 box-border " href="/posts/all/73">73</a>
       
-      <a class="page-num box-border " href="/posts/all/74">74</a>
+      <a class="page-num m-1 box-border " href="/posts/all/74">74</a>
       
-      <a class="page-num box-border " href="/posts/all/75">75</a>
+      <a class="page-num m-1 box-border " href="/posts/all/75">75</a>
       
-      <a class="page-num box-border " href="/posts/all/76">76</a>
+      <a class="page-num m-1 box-border " href="/posts/all/76">76</a>
       
-      <a class="page-num box-border " href="/posts/all/77">77</a>
+      <a class="page-num m-1 box-border " href="/posts/all/77">77</a>
       
-      <a class="page-num box-border " href="/posts/all/78">78</a>
+      <a class="page-num m-1 box-border " href="/posts/all/78">78</a>
       
     </div>
   </div>
   <!-- sidebar -->
-  <div class="flex-none w-60">
+  <div class="flex-none w-full md:w-60 mt-5 md:mt-0">
   <div>
-    <h1 class="text-2xl font-semibold font-display text-gray-800">热门产品</h1>
+    <h1 class="text-2xl font-semibold font-display text-gray-800">🔥 热门产品</h1>
     <div class="mt-6 grid gap-2 grid-cols-1">
       
       <a href="/post/readstack/" class="flex p-2 rounded text-center text-xs bg-white hover:text-indigo-600">
@@ -530,17 +528,17 @@
     </div>
   </div>
   <div class="mt-5">
-    <h1 class="text-2xl font-semibold font-display text-gray-800">热门标签</h1>
+    <h1 class="text-2xl font-semibold font-display text-gray-800">🔥 热门标签</h1>
     <div class="mt-6 grid gap-1 grid-cols-2">
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/模板/1">
+        <a class="block" href="/posts/moban/1">
           <div>模板<span class="pl-2 text-sm text-green-400">9</span></div>
         </a>
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/应用程序/1">
+        <a class="block" href="/posts/yingyongchengxu/1">
           <div>应用程序<span class="pl-2 text-sm text-green-400">9</span></div>
         </a>
       </div>
@@ -564,25 +562,25 @@
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/网站/1">
+        <a class="block" href="/posts/wangzhan/1">
           <div>网站<span class="pl-2 text-sm text-green-400">7</span></div>
         </a>
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/生成器/1">
+        <a class="block" href="/posts/shengchengqi/1">
           <div>生成器<span class="pl-2 text-sm text-green-400">7</span></div>
         </a>
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/收件箱/1">
+        <a class="block" href="/posts/shoujianxiang/1">
           <div>收件箱<span class="pl-2 text-sm text-green-400">7</span></div>
         </a>
       </div>
       
       <div class="py-2 rounded min-w-1/4 text-center text-1xl text-green-600 bg-green-100 border border-green-200">
-        <a class="block" href="/posts/自定义/1">
+        <a class="block" href="/posts/zidingyi/1">
           <div>自定义<span class="pl-2 text-sm text-green-400">7</span></div>
         </a>
       </div>
@@ -601,21 +599,21 @@
 
     <div class="bg-gray-700">
       <div class="sizeing p-6 text-gray-100">
-        <div class="flex">
+        <div class="flex flex-col lg:flex-row">
           <div class="flex-1 text-xs">
             <h2 class="text-1xl font-semibold text-base mb-2">欢迎</h2>
             欢迎来到产品情报局，这里有很多好玩的产品信息：产品、开发、游戏<br />
             联系站长 Email cs_victor@126.com
           </div>
-          <div class="flex-1">
-            <h2 class="text-1xl font-semibold text-base mb-2">相关站点</h2>
+          <div class="flex-1 mt-5 lg:mt-0">
+            <h2 class="text-1xl font-semibold text-base mb-2">友情站点</h2>
             <div class="grid grid-cols-4 gap-1 text-xs">
               <a href="https://giters.com/">Giters</a>
+              <!-- <a href="">友情链接</a>
               <a href="">友情链接</a>
               <a href="">友情链接</a>
               <a href="">友情链接</a>
-              <a href="">友情链接</a>
-              <a href="">友情链接</a>
+              <a href="">友情链接</a> -->
             </div>
           </div>
         </div>
@@ -645,4 +643,4 @@
     })();
   </script>
 
-</html>
+<
